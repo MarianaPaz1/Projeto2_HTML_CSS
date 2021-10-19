@@ -1,0 +1,421 @@
+/* --------------------------- INFORMAÇÕES GERAIS DA PÁGINA 1------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* TROQUEI O HTML PELO ROOT " * " PARA QUE AS DEFINIÇÕES DAQUI SE APLIQUE A TODAS AS TAGS, IDS E CLASS*/
+* {
+    /* SCROLL- BEHAVIOR - ROLAGEM AUTOMÁTICA DE PÁGINA - A caixa de scroll rola de forma suave usando uma função de temporização definida pelo usuário em um período de tempo */
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
+    /*TROUXE O ELEMENTO PARA O RESET, PARA SER APLICADO EM TODAS AS TAGS*/
+    box-sizing: border-box; 
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#corpo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 1px;
+    background-color: #F7F7F7;
+    text-indent: 5px;
+}
+
+/* -------------------------------------------FECHANDO A PARTE PRINCIPAL -------------------- */
+/* ---------------------------------------------------HEADER--------------------------------- */
+#nav {
+    height: 70px;
+    width: 100%;
+    background-color: #393E46;
+    margin: 0;
+    
+}
+
+#ul {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: right;
+    margin: 0;
+    /* list-style: none; */
+}
+
+/* CHAMANDO O ELEMENTO FILHO PARA A APLICAÇÃO DO ESTILO */
+.item {
+    /* list-style: none; */
+    /* color: white; */
+    font-weight: bold;
+    /* font-size: 15px; */
+    margin-right: 30px;
+    margin-top: 15px;
+    padding: 10px; /*ALTEREI O PADDING PARA CRIAR UM ESPAÇO DE CLICK AO REDOR DO LINK*/
+    transform:translateX(0) scale(1);
+}
+
+.item:hover{
+    transform:translateX(1px) scale(1.2);
+    text-shadow: 1px 1px 5px #F8B500;
+}
+
+
+
+
+.a {
+    /* text-decoration: none; */
+    color: #F7F7F7;  
+    transform:translateX(0) scale(1);
+}
+
+.a:hover {
+    /* ALTERA A ESCALA DO OBJETO, E APLICA SOMBRA NA FONTE */
+    transform:translateX(1px) scale(1.3);
+    text-shadow: 2px 2px 10px #F8B500, 1px 1px 5px #f3c957;
+
+     /* color: black; */
+    /* background-color: #F8B500; */
+    /* font-size: 22px;  */
+} 
+
+#cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: #5C636E;
+}
+
+#logoCabecalho {
+    width: 20vw;
+    height: 100px;
+}
+
+#detalhe {
+    width: 100%;
+    background-color: #F8B500;
+    height: 5px;
+    margin: 0;
+}
+
+/*  ----------------------------------------------FECHANDO O HEADER -------------------------- */
+/* -----------------------------------------------BRINCANDO COM A PÁGINA 1-------------------- */
+/* #banner1{
+    background-color: #F8B500;
+    margin:0;
+    margin-bottom: 50px;
+} */
+
+
+/* ALTERAÇÕES NESSE ELEMENTO JÁ DEIXOU O BANNER RESPONSIVO  */
+#banner{
+    margin:0;
+    width: 100vw;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+/* .quemSomos1 {
+    width: 100%;
+} */
+
+/* .section1 {
+
+    width: 15%;
+    height: 300px;
+    float: left;
+} */
+
+.section2 {
+    background-color: #5c636e67; /*DEI UMA TRANSPARENCIA NO BACKGROUND */
+    width: 60%;
+    height: 400px;
+    /* float: left; */
+    text-align: justify; /*ALTERANDO O ALINHAMENTO DO TEXTO DE CENTER PARA JUSTIFY */
+    border-radius: 10px; /*ARREDONDANDO AS BORDAS DO ELEMENTO */
+
+    /* DANDO MARGENS LATERAIS, AUMENTANDO O ESPAÇAMENTO ENTRE LINHAS, DANDO UM ESPAÇAMENTO INTERNO ENTRE O TEXTO E A CAIXA */
+    margin: 10% 20%;
+    line-height: 25px;
+    padding: 30px;
+}
+
+/* DEFININDO VALORES PARA O TITULO H1  */
+.section2 h1{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* .section3 {
+    width: 15%;
+    height: 300px;
+    float: left;
+
+} */
+
+/* ------------------------------------------------BENEFÍCIOS ------------------------------- */
+/* .beneficios{
+    
+} */
+.item1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 24%;
+    height: 200px;
+    float: left;
+    border-right: solid 3px #F8B500;
+    text-align: center;
+
+}
+
+.item2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 24%;
+    height: 200px;
+    float: left;
+    border-right: solid 3px #F8B500;
+    text-align: center;
+}
+
+.item3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 24%;
+    height: 200px;
+    float: left;
+    
+    border-right: solid 3px #F8B500;
+    text-align: center;
+}
+
+.item4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 24%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+/* ---LETRAS ------ */
+/* h1,h2,h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: unset;
+    box-shadow:#F8B500 2px;
+} */
+/* -------------------------------------------------------FOOTER ---------------------------- */
+/* ul {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+
+} */
+
+#central {
+    font-size: 15 px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+}
+
+.sectionFooter {
+    width: 100%;
+    height: 250px;
+    background-color: #5C636E;
+    color: black;
+    justify-content: space-around;
+    border-bottom: solid #F8B500 1px;
+    display: flex;
+
+
+}
+
+#footer1 {
+    width: 33%;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+
+#links {
+    color: black;
+    text-decoration: underline;
+}
+
+/*  ----------------------------------------------- LINK DAS REDES SOCIAIS --------------- */
+.redesSociais {
+    width: 100%;
+    height: 200px;
+    /* background-color: #5C636E; */
+    /* color: black; */
+    border-bottom: solid #F8B500 1px;
+    /* box-sizing: border-box; */
+}
+
+.redesSociais div{
+    justify-content: center;
+}
+
+/* #div1 {
+
+    justify-content: center;
+
+}
+
+#div2 {
+
+    justify-content: center;
+}
+
+#div3 {
+
+    justify-content: center;
+}
+
+#div4 {
+
+    justify-content: center;
+} */
+
+/*  ----------------------------------------------- FOOTER 2 E 3--------------------------- */
+#footer2 {
+    width: 33%;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+
+#logo {
+    width: 70%;
+    height: 100px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#footer3 {
+    width: 33%;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+
+/* ----------------------------------------RODAPÉ------------------------------------------ */
+.rodape {
+    background-color: #393E46;
+    color: white;
+    margin: 0;
+    border: 10px;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+}
+
+/******************************************* MEDIA *****************************************/
+@media (max-width: 700px){
+    /* ***RODAPE*** */
+    .sectionFooter{
+      height: 100vh; /*DEFININDO A ALTURA DO FOOTER PARA TELA INTEIRA, PARA QUE OS ELEMENTOS NÃO ULTRAPASSEM SUA DIMENÇÃO*/
+      display: flex; /*CRIANDO UM FLEX PARA ESSE ELEMENTO*/
+      flex-direction: column; /*DEFININDO O FLE PARA COLUNA*/
+    }
+
+    #footer1{
+        width: 100%; /*PERMITINDO QUE O ELEMENTO TENHA ESPAÇO PARA SE AJUSTAR*/
+        border-bottom: solid #F8B500 1px; /*CRIANDO UMA BARRA/DIVISORIA A BAIXO DO ELEMENTO*/
+    }
+
+    #footer2{
+        width: 100%; /*PERMITINDO QUE O ELEMENTO TENHA ESPAÇO PARA SE AJUSTAR*/
+    }
+
+    #footer2 section div{
+        display: flex; /*ATRIBUINDO FLEX A DIV DAS REDES SOCIAIS*/
+        flex-direction: row; /*DIRECIONANDO O FLEX PARA A POSIÇÃO HORIZONTAL*/
+    }
+
+    /* REDEFININDO O TAMANHO DOS ICONES E CRIANDO ESPAÇOS ENTRE ELES */
+    #footer2 section div img{
+        width: 35px;
+        margin: 20px;
+    }
+
+    #footer3{
+        width: 100%; /*PERMITINDO QUE O ELEMENTO TENHA ESPAÇO PARA SE AJUSTAR*/
+    }
+    /* ***FIM DO RODAPE*** */
+
+    /* ***INICIANDO O ARTICLE*** */
+    .beneficios{
+        display: flex; /*CRIANDO UM FLEX PARA ESSE ELEMENTO*/
+        flex-direction: column; /*DEFININDO O FLE PARA COLUNA*/
+        width: 100%; /*ESPAÇO PARA ELE SE AJUSTAR, ALINHANDO AS SECTIONS*/
+        
+    }
+
+    /* ALTERANDO O COMPORTAMENTO DAS SECTIONS DO BENEFICIOS */
+    .beneficios section{
+        width: 100%; /*FAZENDO COM QUE O ELEMENTO OCUPE TODO O ESPAÇO HORIZONTAL*/
+        border-right: none; /*RETIRANDO AS BARRAS/DIVISORIAS VERTICAIS*/
+        border-bottom: solid #F8B500 1px; /*CRIANDO UMA BARRA/DIVISORIA A BAIXO DOS ELEMENTOS*/
+        margin: auto; /*JUSTIFICANDO OS ELEMENTOS OS MANTENDO COM ESPAÇAMENTOS ADEQUADOS*/
+        margin-top: 25px; /*AFASTANDO OS ELEMENTOS DA PARTE SUPERIOR*/
+    }
+    /* ***FIM DO ARTICLE*** */
+
+
+    /* ***INICIANDO A SECTION*** */
+    /* DEFIININDO O TAMANHO DA CAIXA */
+    .section2{
+        width: 90vw;
+        height: 270vw;
+        margin: 0 20px;
+        padding: 10px;
+    }
+
+    /* REDEFININDO O TAMANHO, ALINHAMENTO E MARGEM DO TITULO */
+    .section2 h1{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    /* REDEFININDO O TAMANHO E MARGENS DOS PARAGRAFOS (ELEMENTOS QUE CRIEI NO HTML AO RETIRAR OS BRS) */
+    .section2 p{
+        font-size: 1.2rem;
+        margin: 25px 10px;
+    }
+    /* ***FIM DA SECTION*** */
+
+    /* ***BANNER*** */
+    /* #banner1 img{
+        width: 100vw; /*AJUSTA A IMAGEM HORIZONTALMENTE AO TAMANHO DA TELA VISIVEL*/
+        /* height: 100%; DEFINE A ALTURA PROPORCIONAL DA IMAGEM EM CONSONANCIA COM A PROPORÇÃO HORIZONTAL 
+    } */
+    /* ***FIM DO BANNER*** */
+
+    /* ***MENU DE NAVEGAÇÃO*** */
+    /* ESCALANDO A FILIAÇÃO ATE O ELEMENTO QUE VAI SER ALTERADO */
+    #ul li a{
+        font-size: 0.7em; /*REDEFININDO VALOR DA FONTE*/
+        display: flex; /*CRIANDO UM FLEX PARA O ELEMENTO*/
+        width: 150%; /*ALMENTANDO O ESPAÇO DA CAIXA DOS LINKS*/
+        justify-content: space-around; /*CRIA UM ESPAÇAMENTO IGUAL NA ESQUERDA E DIREITA DO ELEMENTO*/
+    }
+    /* ***FIM MENU DE NAVEGAÇÃO*** */
+
+    /* LOGO CABEÇALHO, DEFININDO O TAMANHO E JUSTIFICANDO AO CENTRO */
+    #cabecalho{
+        display: flex;
+        justify-content: center;
+    }
+
+    #logoCabecalho {
+        width: 50vw;
+    }
+}

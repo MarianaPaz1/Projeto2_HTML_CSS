@@ -1,0 +1,250 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> LOGR - PÁGINA CADASTRO</title>
+    <link rel="stylesheet" type="text/css" href="./css/3 pagina.css">
+</head>
+
+<body>
+    <header>
+        <div id="cabeçalho">
+            <img id="logoCabecalho" src="./imagens/Logo oficial_Mari.png">
+    </header>
+    <p id=detalhe> </p>
+    <nav id="nav">
+
+        <!--UL LISTAS NÃO ORDENADAS-->
+        <ul id="ul">
+
+            <li class="item"><a class="a" href="index.html">QUEM SOMOS</a></li>
+            <li class="item"><a class="a" href="pagina2.html"> LOGÍSTICA REVERSA</a></li>
+            </li>
+            <li class="item"><a class="a" href="pagina3.html">CADASTRE-SE </a></li>
+        </ul>
+
+    </nav>
+    <!-- ABRI UM MAIN PARA PÁGINA DE FORMULÁRIOS -->
+    <main id="corpo">
+
+
+        <!-- *************************************************ABRI SECTION FORM**************** -->
+        <section class="separacaoPagina3">
+            <div id="formularioLado">
+                <iframe id="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14582.292517002776!2d-46.1995978!3d-23.97553045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e2!4m0!4m0!5e0!3m2!1spt-BR!2sbr!4v1633808173653!5m2!1spt-BR!2sbr"></iframe>
+            </div>
+
+            <div id="formulario">
+                <form>
+                    <section id="parte1">
+                        <div id="login">
+                            <p id="letrasForm">LOGIN</p>
+                            <p>
+                                <label for="email">
+                                    Email:
+                                </label>
+                                <input type="email" id="email" placeholder="digite seu email aqui">
+                            </p>
+                            <!--CAIXA PARA SELECIONAR A DATA DE NASCIMENTO com calendário-->
+
+                            <p>
+                                <!--Placeholder não funciona nas datas-->
+                                <!--Password - oculta a informação digitada no input-->
+                                <label for="senha">
+                                    Senha:
+                                </label>
+                                <input type="password" id="senha" placeholder="digite sua senha aqui">
+                            </p>
+                            <button class="botaoEntrar">
+                                <type="submit" class="botaoEntrar">Entrar
+                            </button>
+                        </div>
+                </form>
+                <form>
+                    <div id="Cadastro">
+                        <p id="letrasForm"> CADASTRO PARA COLETA DE MEDICAMENTOS
+                        </p>
+                        <p>
+                            <label for="nome">
+                                Nome:
+                            </label>
+                            <input type="text" id="nome" name="nome" placeholder="digite seu nome aqui">
+
+                            <p>
+                                <label for="numero">
+                                    CPF:
+                                </label>
+                                <input type="number" id="numero" name="numero" placeholder="digite seu CPF">
+
+                            </p>
+
+                            <p>
+                                <label for="dataNascimento"></label>Data:
+                                <input type="date" id="dataNascimento" name="dataNascimento"
+                                    placeholder="Selecione sua data de nascimento">
+                            </p>
+
+                            <p>
+                                <label for="endereço"></label>Endereço:
+                                <input type="andress" id="endereço" name="endereço" placeholder="digite endereço + CEP">
+                            </p>
+
+                            <!--Seletor de Estado para a Caixa-->
+                            <p>
+                                <label for="estado">Estado:</label>
+                                <select id="estado" name="estado">
+                                    <option>selecione o seu Estado</option>
+                                    <option value=" AC "> Acre </option>
+                                    <option value=" AL "> Alagoas </option>
+                                    <option value=" AP "> Amapá </option>
+                                    <option value=" AM "> Amazonas </option>
+                                    <option value=" BA "> Bahia </option>
+                                    <option value=" CE "> Ceará </option>
+                                    <option value=" DF "> Distrito Federal</option>
+                                    <option value=" ES "> Espírito Santo </option>
+                                    <option value=" GO "> Goiás </option>
+                                    <option value=" MA "> Maranhão </optio>
+                                    <option value=" MT "> Mato Grosso </option>
+                                    <option value=" MS "> Mato Grosso do Sul </option>
+                                    <option value=" MG "> Minas Gerais </option>
+                                    <option value=" PA "> Pará </option>
+                                    <option value=" PB "> Paraíba </option>
+                                    <option value=" PR "> Paraná </option>
+                                    <option value=" PE "> Pernambuco </option>
+                                    <option value=" PI "> Piauí </option>
+                                    <option value=" RJ "> Rio de Janeiro </option>
+                                    <option value=" RN "> Rio Grande do Norte </option>
+                                    <option value=" RS "> Rio Grande do Sul </option>
+                                    <option value=" RO "> Rondônia </option>
+                                    <option value=" RR "> Roraima </option>
+                                    <option value=" SC "> Santa Catarina </option>
+                                    <option value=" SP "> São Paulo </option>
+                                    <option value=" SE "> Sergipe </option>
+                                    <option value=" TO "> Tocantins </option>
+
+                                </select>
+                            </p>
+
+                            <!--radio é usado para seleção de um único elemento na lista.-->
+                            <p id="letrasForm"> ALGUM MEDICAMENTO VENCIDO? </p>
+                            <label for="positivo"></label>
+                            <input class="botaoEntrar" type="radio" id="sim" name="positivo" value="0"> SIM </br>
+                            <input class="botaoEntrar" type="radio" id="não" name="positivo" value="1"> NÃO </br>
+                            </br>
+                            </br>
+                            <button class="botaoEntrar" type="submit">Enviar
+                            </button>
+                            <button class="botaoEntrar" type="reset"> Limpar
+                            </button>
+                    </div>
+                </form>
+        </section>
+
+
+        <section id="parte2"></section>
+        <br>
+        <br>
+        <br>
+        <!-- **************************************** FINAL DA SECTION FORM ******************************* -->
+        </section>
+
+
+        <!-- **************************************** FINAL DO MAIN ******************************* -->
+    </main>
+
+    <!-- *****************************************FOOTER*************************************** -->
+
+    <footer>
+
+        <!-- *******************************************************COMECEI A SECTION************* -->
+        <section class="sectionFooter">
+            <div id="footer1">
+                <nav class=" classfooter">
+                    <ul>
+                        <p id="central"> INFORMAÇÕES RELEVANTES </p>
+                        <li> <img src="https://img.icons8.com/ios/50/000000/book-reading.png" /></li>
+                        <li><a id="links" href="https://guiadafarmacia.com.br/industrias/">Lista de parceiros </a> </li>
+                        <li><a id="links"
+                                href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10388.htm">Decreto
+                                10.388/20</a></li>
+                        <li><a id="links"
+                                href="http://www.crfsp.org.br/orienta%C3%A7%C3%A3o-farmac%C3%AAutica/543-fiscalizacao-parceira/11353-medicamentos-vencidos-ou-em-desuso_.html">Fiscalização
+                                orientativa CRF-SP</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="footer2">
+                <nav class=" classfooter">
+                    <ul>
+                        <section class="redesSociais">
+                            <p id="central"> SIGA NOSSAS REDES: </p>
+                            <div id="div1">
+                                <li class="linha">
+                                    <a href="#"></a>
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/twitter.png"
+                                        alt=" ícone do Twitter" /></li>
+                            </div>
+                            <div id="div2">
+                                <a href="#"></a>
+                                <li><img src="https://img.icons8.com/material-rounded/24/000000/linkedin.png"
+                                        alt="ícone do linkedIn " />
+                                </li>
+                                <div id="div3">
+                                    <a href="#"></a>
+                                    <li><img src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png"
+                                            alt="ícone do instagram" />
+                                </div>
+                                </li>
+                                <div id="div4">
+                                    <li><img src="https://img.icons8.com/material-rounded/24/000000/facebook-new.png"
+                                            alt="ícone do facebook" />
+                                </div>
+                                </li>
+                        </section>
+                    </ul>
+                </nav>
+            </div>
+            <div id="footer3">
+                <nav class=" classfooter">
+                    <ul>
+                        <p id="central"> CENTRAL DE ATENDIMENTO </p>
+                        <li> <img src="https://img.icons8.com/material-sharp/24/000000/no-phones--v1.png"
+                                alt=" ícone de telefone " /> (11) 94575-2271</li>
+                        <li><img src="https://img.icons8.com/material-outlined/24/000000/email.png"
+                                alt="ícone de email " />
+                            faleconosco@logr.com.br </li>
+                        <li><img src="https://img.icons8.com/material/24/000000/internet.png"
+                                alt="ícone de servidor " />
+                            www.logrtransportes.com.br </li>
+                        <li><img src="https://img.icons8.com/material/24/000000/marker--v1.png" alt="ícone de mapa" />
+                            Rua x, Cidade - Estado, Brasil, CEP 00000-000.
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!-- *******************************************************FECHEI A SECTION************* -->
+        <p class="rodape">
+            Copyright © 2021 LOGR SOLUÇÕES | Todos os direitos reservados | Políticas de Privacidade | Políticas de
+            Cookies
+        </p>
+    </footer>
+    <!-- ***********************************************FINAL DO BODY E HTML************************* -->
+    <!-- ***************************************************ADICIONANDO O VLIBRAS *********************** -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+    <!-- *************************************************** VLIBRAS *********************** -->
+</body>
+
+</html>

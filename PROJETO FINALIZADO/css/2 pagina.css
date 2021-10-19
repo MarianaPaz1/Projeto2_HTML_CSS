@@ -1,0 +1,345 @@
+/* --------------------------- INFORMAÇÕES GERAIS DA PÁGINA 2------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html {
+    /* SCROLL- BEHAVIOR - ROLAGEM AUTOMÁTICA DE PÁGINA - A caixa de scroll rola de forma suave usando uma função de temporização definida pelo usuário em um período de tempo */
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
+}
+
+#corpo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 1px;
+    background-color: #F7F7F7;
+    text-indent: 5px;
+
+}
+
+/* -------------------------------------------FECHANDO A PARTE PRINCIPAL -------------------- */
+/* ---------------------------------------------------HEADER--------------------------------- */
+#nav {
+    height: 70px;
+    width: 100%;
+    background-color: #393E46;
+    margin: 0;
+}
+
+#ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0;
+    list-style: none;
+
+}
+
+.item {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 30px;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+
+.a {
+    text-decoration: none; 
+    color: #F7F7F7;
+    transform: translateX(0) scale(1);
+}
+
+.a:hover {
+    /* ALTERA A ESCALA DO OBJETO, E APLICA SOMBRA NA FONTE  */
+    transform: translateX(1px) scale(1.3);
+    text-shadow: 2px 2px 10px #F8B500, 1px 1px 5px #f3c957;
+
+    /* color: black; */
+    /* background-color: #F8B500; */
+    /* font-size: 22px;  */
+}
+
+#cabeçalho {
+    width: 100%;
+    height: 100px;
+    background-color: #5C636E;
+
+}
+
+#logoCabecalho {
+    width: 20%;
+    height: 100px;
+
+}
+
+#detalhe {
+    width: 100%;
+    background-color: #F8B500;
+    height: 5px;
+    margin: 0;
+}
+
+/*  ----------------------------------------------FECHANDO O HEADER -------------------------- */
+/* -----------------------------------------------BRINCANDO COM A PÁGINA 2-------------------- */
+/* VÍDEO */
+#video {
+    text-align: center;
+    margin: o;
+    border: 0;
+    padding: 0;
+}
+
+#video1 {
+    border: 12px solid #393E46;
+    border-radius: 25px;
+    line-height: 30px;
+    text-shadow: #F8B500 1px 1px;
+}
+
+.espacamento {
+
+    margin-top: 25px;
+    border: 2px solid #F8B500;
+
+
+}
+
+p {
+    text-indent: 10px;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-shadow: #F8B500 1px 1px;
+    color: #393E46;
+    text-align: center;
+    line-height: 20px;
+}
+
+#dfn {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 1.2px;
+
+}
+
+.tipo1 {
+    margin-top: 100px;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    float: left;
+}
+
+.tipo2 {
+    margin-top: 60px;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    float: left;
+}
+
+.corPag2 {
+    background-color: #F8B500;
+}
+
+#corPag2 {
+
+    background-color: #393E46;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#banner {
+    line-height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 80%;
+    height: 300px;
+
+}
+
+.banner1 {
+    border-radius: 15px solid #5C636E;
+    text-shadow: #F8B500 1px 1px;
+}
+
+/* -----------------------------------------------FECHANDO A PÁGINA 2------------------------- */
+/* -------------------------------------------------------FOOTER ---------------------------- */
+ul {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+#central {
+    font-size: 15 px;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+
+}
+
+.sectionFooter {
+    width: 100%;
+    height: 250px;
+    background-color: #5C636E;
+    color: black;
+    justify-content: space-around;
+    border-bottom: solid #F8B500 1px;
+    display: flex;
+
+
+}
+
+#footer1 {
+    width: 33%;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+
+#links {
+    color: black;
+    text-decoration: underline;
+
+
+}
+
+/*  ----------------------------------------------- LINK DAS REDES SOCIAIS --------------- */
+.redesSociais {
+    width: 100%;
+    height: 200px;
+    background-color: #5C636E;
+    color: black;
+    border-bottom: solid #F8B500 1px;
+    box-sizing: border-box;
+
+}
+
+/*  ----------------------------------------------- FOOTER 2 E 3--------------------------- */
+#footer2 {
+    width: 33%;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+
+#logo {
+    width: 70%;
+    height: 100px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#footer3 {
+    width: 33%;
+    height: 200px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+
+/* ----------------------------------------RODAPÉ------------------------------------------ */
+.rodape {
+    background-color: #393E46;
+    color: white;
+    margin: 0;
+    border: 10px;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+}
+
+/******************************************* MEDIA *****************************************/
+@media (max-width: 700px) {
+
+    /* ***RODAPE*** */
+    .sectionFooter {
+        height: 100vh;
+        /*DEFININDO A ALTURA DO FOOTER PARA TELA INTEIRA, PARA QUE OS ELEMENTOS NÃO ULTRAPASSEM SUA DIMENÇÃO*/
+        display: flex;
+        /*CRIANDO UM FLEX PARA ESSE ELEMENTO*/
+        flex-direction: column;
+        /*DEFININDO O FLE PARA COLUNA*/
+    }
+
+    #footer1 {
+        width: 100%;
+        /*PERMITINDO QUE O ELEMENTO TENHA ESPAÇO PARA SE AJUSTAR*/
+        border-bottom: solid #F8B500 1px;
+        /*CRIANDO UMA BARRA/DIVISORIA A BAIXO DO ELEMENTO*/
+    }
+
+    #footer2 {
+        width: 100%;
+        /*PERMITINDO QUE O ELEMENTO TENHA ESPAÇO PARA SE AJUSTAR*/
+    }
+
+    #footer2 section div {
+        display: flex;
+        /*ATRIBUINDO FLEX A DIV DAS REDES SOCIAIS*/
+        flex-direction: row;
+        /*DIRECIONANDO O FLEX PARA A POSIÇÃO HORIZONTAL*/
+    }
+
+    /* REDEFININDO O TAMANHO DOS ICONES E CRIANDO ESPAÇOS ENTRE ELES */
+    #footer2 section div img {
+        width: 35px;
+        margin: 20px;
+    }
+
+    #footer3 {
+        width: 100%;
+        /*PERMITINDO QUE O ELEMENTO TENHA ESPAÇO PARA SE AJUSTAR*/
+    }
+
+    /* ***FIM DO RODAPE*** */
+
+    /* ***MENU DE NAVEGAÇÃO*** */
+    /* ESCALANDO A FILIAÇÃO ATE O ELEMENTO QUE VAI SER ALTERADO */
+    #ul li a {
+        font-size: 0.7em;
+        /*REDEFININDO VALOR DA FONTE*/
+        display: flex;
+        /*CRIANDO UM FLEX PARA O ELEMENTO*/
+        width: 150%;
+        /*ALMENTANDO O ESPAÇO DA CAIXA DOS LINKS*/
+        justify-content: space-around;
+        /*CRIA UM ESPAÇAMENTO IGUAL NA ESQUERDA E DIREITA DO ELEMENTO*/
+    }
+
+    /* ***FIM MENU DE NAVEGAÇÃO*** */
+
+    /* LOGO CABEÇALHO, DEFININDO O TAMANHO E JUSTIFICANDO AO CENTRO */
+    #cabecalho {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logoCabecalho {
+        width: 50vw;
+    }
+}
